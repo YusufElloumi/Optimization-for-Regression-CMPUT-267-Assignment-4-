@@ -1,0 +1,72 @@
+# --- Python bytecode / build ---
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.conda/
+.ptyhon_env/
+pip-wheel-metadata/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# If you use nbconvert to export HTML/PDF, uncomment if you don't want them tracked
+# *.html
+# *.pdf
+
+# --- Caches / tooling ---
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pytype/
+.tox/
+.coverage*
+coverage.xml
+htmlcov/
+.cache/
+
+# --- Logs ---
+*.log
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Data files (keep if you want small samples tracked) ---
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.gz
+*.zip
+
+# --- Secrets / env (DO commit a sample like .env.example) ---
+.env
+.env.*
+*.secret*
+*.key
+*.pem
+
+# --- Otter / Autograder artifacts (if generated locally) ---
+autograder/
+.otter/
+.otter_logs/
